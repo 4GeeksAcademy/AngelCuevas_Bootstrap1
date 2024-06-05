@@ -1,0 +1,26 @@
+#fecha{
+    padding-left: 90%; 
+    font-size: smaller; 
+    margin-top: -70px;
+    padding-bottom: 15px;
+}
+#ferrari{
+    width: auto;
+    height: 370px;
+    object-fit:cover; 
+}
+
+#post2{
+    margin-top: 40px;
+}
+#fecha2{
+    padding-left: 90%; 
+    font-size: smaller; 
+    margin-top: -70px;
+    padding-bottom: 15px;
+}
+#ferrari2{
+    width: auto;
+    height: 370px;
+    object-fit:cover; 
+}
