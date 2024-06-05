@@ -24,3 +24,10 @@
     height: 370px;
     object-fit:cover; 
 }
+#fila1{
+    width: auto;
+    height: 300px;
+    object-fit:cover; 
+    margin-bottom: 30px;
+
+}
