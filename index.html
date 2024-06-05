@@ -16,8 +16,9 @@
 
 <body>
     <div class="container">
-        <div class="row d-flex bd-highlight mb-3" style="background-color: rgb(234, 230, 230);">
-            <nav class=" me-auto p-2 bd-highlight col-9 navbar navbar-light">
+       
+        <div class="row bd-highlight mb-3" style="background-color: rgb(234, 230, 230);">
+            <nav class="  col-4 col-lg-10 me-auto p-2 bd-highlight navbar navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <i class="fa-brands fa-instagram" style="font-size: large;"></i>Instagram
@@ -25,40 +26,41 @@
                 </div>
               </nav>
             <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary col-2 p-2 bd-highlight" style="margin: auto; background-color: green;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    create a new post
-  </button>
+      <button id="boton" type="button" class="btn btn-primary  p-2 bd-highlight" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               Create a new post
+      </button>
   
   <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
-      </div>
-    </div>
-  </div>
-            <div class="col-1 p-2 bd-highlight btn-group">
-                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                         ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <div id="buttondrop" class=" col-2 p-2 bd-highlight btn-group d-flex justify-content-end">
+                <button  class="btn btn-secondary btn-sm dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-gear"></i>
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Account Settings</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    <li><a class="dropdown-item" href="#" style="color: red;"><b>Log out</b></a></li>
                 </ul>
               </div>
+           
         </div>
 
         <div class="row"> 
@@ -75,23 +77,23 @@
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="container d-flex justify-content-evenly">
                         <div class="row row-cols-auto">
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1614010915936-cd7e3f49b844?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1691025255410-299036c9b0fd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1630683744364-0b49bd336033?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1614010915936-cd7e3f49b844?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1691025255410-299036c9b0fd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1630683744364-0b49bd336033?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
                         </div>
                       </div>
                       <div class="container d-flex justify-content-evenly">
                         <div class="row row-cols-auto">
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1614026480209-cd9934144671?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1660184801110-fac2a670eae8?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1552519507-ac11af17dcc8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1614026480209-cd9934144671?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1660184801110-fac2a670eae8?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1552519507-ac11af17dcc8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
                         </div>
                       </div>
                       <div class="container d-flex justify-content-evenly">
                         <div class="row row-cols-auto">
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1569399078436-da10fbd60f12?q=80&w=2746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
-                          <div class="col-4"><img id="fila1" src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=3015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1569399078436-da10fbd60f12?q=80&w=2746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
+                          <div class="col col-lg-4"><img id="fila1" src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=3015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2"></div>
                         </div>
                       </div>
                     
@@ -99,10 +101,10 @@
                       
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                   <div class="row">
-                    <div class="col-3"></div>
-                    <div  id="feed"  class="col-6 container">
+                    <div class="col-0 col-lg-3"></div>
+                    <div  id="feed"  class="col-12 col-lg-6 container">
                       <div class="card">
-                        <h3 style="margin-left: 5px; margin-top: 15px; padding-bottom: 30px;"> Nuevo Ferrary California V12</h3><h3 id="fecha">04/06</h3>
+                        <h3 style="margin-left: 5px; margin-top: 15px; padding-bottom: 30px;">Ferrary California V12</h3><h3 id="fecha">04/06</h3>
                         <img id="ferrari" src="https://images.unsplash.com/photo-1614010915936-cd7e3f49b844?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo">
                         <div class="card-body">
                           <p class="card-text"><b>202 likes</b> <br>
@@ -110,13 +112,13 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-0 col-lg-3"></div>
 
                   </div>
                   
                   <div id="post2" class="row">
-                    <div class="col-3"></div>
-                    <div  id="feed2"  class="col-6 container">
+                    <div class="col-0 col-lg-3"></div>
+                    <div  id="feed2"  class="col-12 col-lg-6 container">
                       <div class="card">
                         <h3 style="margin-left: 5px; margin-top: 15px; padding-bottom: 30px;"> Nuevo McLaren P1 </h3><h3 id="fecha2">02/06</h3>
                         <img id="ferrari2" src="https://images.unsplash.com/photo-1535063130681-0fe292a3524b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2">
@@ -126,13 +128,13 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-0 col-lg-3"></div>
                     
 
                   </div>
                   <div id="post2" class="row">
-                    <div class="col-3"></div>
-                    <div  id="feed2"  class="col-6 container">
+                    <div class="col-0 col-lg-3"></div>
+                    <div  id="feed2"  class="col-12 col-lg-6 container">
                       <div class="card">
                         <h3 style="margin-left: 5px; margin-top: 15px; padding-bottom: 30px;"> Aston Martin DBS </h3><h3 id="fecha2">10/05</h3>
                         <img id="ferrari2" src="https://images.unsplash.com/photo-1630683744364-0b49bd336033?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="lambo2">
@@ -142,7 +144,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="col-0 col-lg-3"></div>
 
                   </div>
                 
